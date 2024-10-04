@@ -23,18 +23,19 @@ This project implements a simple dynamic string manipulation library in C. It al
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dynamic-string-manipulation.git
-   cd dynamic-string-manipulation
+   git clone https://github.com/rafailsialakis/DynamicString
+   cd DynamicString
 Compile the code:
 
 bash
 Copy code
-gcc -o dynamic_string main.c
+gcc -o main main.c DynamicString.c
 Run the program:
 
 bash
 Copy code
-./dynamic_string
+
+./main
 Usage
 Upon running the program, you will be prompted to enter a string to append to the current string.
 Type "exit" to quit the program.
