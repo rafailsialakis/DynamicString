@@ -21,6 +21,7 @@ int main()
             return 1;
         String = (char*)realloc(String, strlen(buffer) + strlen(String) + 1); //Add 1 for '\0' character
         strappend(String, buffer);
-        printf('\n');
+        printf("\n");
     }
+    free(String);
 }
